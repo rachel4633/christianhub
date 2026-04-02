@@ -7,7 +7,9 @@ import Signup from './components/Signup';
 import Notfound from './components/Notfound';
 import Makepayment from './components/Makepayment';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import logo from "./static/images/logo-home.jpg"
+import logo from "./static/images/logo-home.jpg";
+import Footer from './components/Footer';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function App() {
   return (
@@ -39,6 +41,7 @@ function App() {
             <Route path='*' element={<Notfound />} />
           </Routes>
         </div>
+        <Footer/>
       </div>
     </Router>
   );

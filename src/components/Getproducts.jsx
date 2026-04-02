@@ -10,7 +10,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 // Images
 import slide1 from "../static/images/slide1.jpeg";
-import slide2 from "../static/images/slide2.webp";
+import slide2 from "../static/images/slide2.jpg";
 import slide5 from "../static/images/slide5.jpg";
 import slide6 from "../static/images/slide6.jpg";
 
